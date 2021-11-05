@@ -104,7 +104,7 @@ img{
   left: 0;
   width: 0;
   height: 3px;
-  background: linear-gradient(to right, blue,red);
+  background: linear-gradient(to right, rgb(66, 84, 255),rgb(255, 91, 91));
 }
 
 #hide{
