@@ -36,17 +36,20 @@ $(function(){
   
     //Menuボタンを押した時
     $("#btn01").on("click",function(){
-      $("html, body").animate({scrollTop:0}, 1000, "swing");
+      $("html, body").animate({scrollTop:0}, 1500, "swing");
     })
   
     $("#btn02").on("click",function(){
-      $("html, body").animate({scrollTop:separate*1}, 1000, "swing");
+      $("html, body").animate({scrollTop:separate*1.5}, 1500, "swing");
     })
   
     $("#btn03").on("click",function(){
-      $("html, body").animate({scrollTop:separate*2}, 1000, "swing");
+      $("html, body").animate({scrollTop:separate*3}, 1500, "swing");
     })
-  
-  
-  
+
+    //hideボタンを押したとき
+    $("#btn04").on("click",function(){
+      $("html, body").animate({scrollTop:0}, 1500, "swing");
+    })
+
   })
